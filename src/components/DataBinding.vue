@@ -31,10 +31,7 @@
       <span class="sub">DOM атрибуты</span>
     </p>
 
-
   </div>
-
-
 </template>
 
 <script setup>
