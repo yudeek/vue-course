@@ -3,7 +3,8 @@
   <!-- <TextNode /> -->
   <!-- <Conditional /> -->
   <!-- <DataBinding /> -->
-  <ClassBinding />
+  <!-- <ClassBinding /> -->
+  <OnEvent />
 </template>
 
 <script setup>
@@ -11,5 +12,6 @@
   import Conditional from '@/components/Conditional.vue';
   import DataBinding from '@/components/DataBinding.vue';
   import ClassBinding from '@/components/ClassBinding.vue';
+  import OnEvent from '@/components/OnEvent.vue';
 
 </script>
