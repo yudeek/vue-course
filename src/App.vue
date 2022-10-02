@@ -4,7 +4,9 @@
   <!-- <Conditional /> -->
   <!-- <DataBinding /> -->
   <!-- <ClassBinding /> -->
-  <OnEvent />
+  <!-- <OnEvent /> -->
+  <!-- <ModelBinding /> -->
+  <ForCycle />
 </template>
 
 <script setup>
@@ -13,5 +15,7 @@
   import DataBinding from '@/components/DataBinding.vue';
   import ClassBinding from '@/components/ClassBinding.vue';
   import OnEvent from '@/components/OnEvent.vue';
+  import ModelBinding from '@/components/ModelBinding.vue';
+  import ForCycle from '@/components/ForCycle.vue';
 
 </script>
