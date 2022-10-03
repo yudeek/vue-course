@@ -17,13 +17,20 @@
       <span class="text">{{ userZip }}</span>
       <span class="sub">computed</span>
     </p>
+
+    <!-- <AnotherComponent /> -->
   </div>
 </template>
 
 <script>
+  import AnotherComponent from '@/components/AnotherComponent.vue';
+
   export default {
     emits: ['changeUserName'],
     props: ['number'],
+    components: {
+      AnotherComponent
+    },
     // проверка на тип
     // props: {
     //   number: {
