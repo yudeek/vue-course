@@ -1,10 +1,12 @@
 <template>
   <h1>Vue Course</h1>
-  <Core />
+  <!-- <ReactivityBasic /> -->
+  <Watching />
 </template>
 
 <script setup>
-  import Core from '@/components/Core.vue';
+  import ReactivityBasic from '@/components/ReactivityBasic.vue';
+  import Watching from '@/components/Watching.vue';
 
 
 </script>
